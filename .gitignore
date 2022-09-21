@@ -1,0 +1,19 @@
+# WordPress
+uploads
+upgrade
+/index.php
+/themes/index.php
+
+# Temporary Files
+.DS_Store
+/.idea/
+
+# Package Manager Dependencies
+vendor
+node_modules
+
+# Local
+debug.log
+themes/twenty*
+*.sql
+*.tar
