@@ -1,0 +1,14 @@
+{
+	"extends": "@humanmade",
+	"rules": {
+		"arrow-parens": "off",
+		"jsdoc/require-jsdoc": "off"
+	},
+	"globals": {
+		"wp": true
+	},
+	"ignorePatterns": [
+		"node_modules/**",
+		"vendor/**"
+	]
+}
