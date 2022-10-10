@@ -24,6 +24,9 @@
 		<exclude name="PSR2R.Namespaces.UseInAlphabeticalOrder.Order"/>
 	</rule>
 
+	<!-- TODO: Temp exclude theme folder -->
+	<exclude-pattern>./themes/rayhatron</exclude-pattern>
+
 	<!-- Exclude other dependencies and directories -->
 	<exclude-pattern>./uploads/*</exclude-pattern>
 	<exclude-pattern>./vendor/*</exclude-pattern>
