@@ -8,7 +8,26 @@
 			"email": "hey@rayhatron.com"
 		}
 	],
+	"repositories": {
+		"wpackagist": {
+			"type":"composer",
+			"url":"https://wpackagist.org"
+		}
+	},
     "require-dev": {
         "humanmade/coding-standards": "^1.2"
-    }
+    },
+	"extra": {
+		"installer-paths": {
+			"mu-plugins/{$name}/": [
+				"type:wordpress-muplugin"
+			],
+			"plugins/{$name}/": [
+				"type:wordpress-plugin"
+			],
+			"themes/{$name}/": [
+				"type:wordpress-theme"
+			]
+		}
+	}
 }
