@@ -1,7 +1,14 @@
 <?php
+/**
+ * Plugin Name: Plugin Loader
+ * Description: Loads the MU plugins required to run the site
+ * Author: Rayhatron
+ * Author URI: http://rayhatron.com/
+ * Version: 1.0
+ */
+
 // Plugins to be loaded for any site.
-$global_mu_plugins = [
-];
+$global_mu_plugins = [];
 
 // Load the plugin files.
 foreach ( $global_mu_plugins as $file ) {
