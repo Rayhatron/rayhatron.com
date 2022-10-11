@@ -27,6 +27,9 @@
 	<!-- TODO: Temp exclude theme folder -->
 	<exclude-pattern>./themes/rayhatron</exclude-pattern>
 
+	<!-- Exclude third party plugins -->
+	<exclude-pattern>./mu-plugins/wp-user-profiles/*</exclude-pattern>
+
 	<!-- Exclude other dependencies and directories -->
 	<exclude-pattern>./uploads/*</exclude-pattern>
 	<exclude-pattern>./vendor/*</exclude-pattern>

@@ -17,3 +17,6 @@ debug.log
 themes/twenty*
 *.sql
 *.tar
+
+# Mu-plugins via Composer
+mu-plugins/wp-user-profiles
