@@ -20,7 +20,8 @@
 	"extra": {
 		"installer-paths": {
 			"mu-plugins/{$name}/": [
-				"type:wordpress-muplugin"
+				"type:wordpress-muplugin",
+				"wpackagist-plugin/query-monitor"
 			],
 			"plugins/{$name}/": [
 				"type:wordpress-plugin"
@@ -29,5 +30,8 @@
 				"type:wordpress-theme"
 			]
 		}
+	},
+	"require": {
+		"wpackagist-plugin/query-monitor": "^3.10"
 	}
 }

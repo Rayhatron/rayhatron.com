@@ -8,7 +8,9 @@
  */
 
 // Plugins to be loaded for any site.
-$global_mu_plugins = [];
+$global_mu_plugins = [
+	'query-monitor/query-monitor.php',
+];
 
 // Load the plugin files.
 foreach ( $global_mu_plugins as $file ) {
