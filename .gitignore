@@ -20,3 +20,4 @@ themes/twenty*
 
 # Mu-plugins via Composer
 mu-plugins/query-monitor
+mu-plugins/wp-user-profiles

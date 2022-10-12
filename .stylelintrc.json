@@ -10,6 +10,7 @@
 	"ignoreFiles": [
 		"node_modules/**",
 		"vendor/**",
-		"mu-plugins/query-monitor/**"
+		"mu-plugins/query-monitor/**",
+		"mu-plugins/wp-user-profiles/**"
 	]
 }
