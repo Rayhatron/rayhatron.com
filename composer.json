@@ -1,0 +1,14 @@
+{
+	"name": "rayhatron/rayhatron.com",
+	"description": "The rayhatrondotcom website.",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Rayhatron",
+			"email": "hey@rayhatron.com"
+		}
+	],
+    "require-dev": {
+        "humanmade/coding-standards": "^1.2"
+    }
+}

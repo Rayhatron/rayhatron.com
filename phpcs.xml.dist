@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<ruleset name="rh">
+	<description>PHP coding standards</description>
+
+	<!-- Some configuration defaults -->
+	<arg name="extensions" value="php" />
+
+	<!-- Append arg -s to phpcs to display the name of failed sniffs -->
+	<arg value="s"/>
+
+	<!-- Set a minimum PHP version for PHPCompatibility -->
+	<config name="testVersion" value="7.4-" />
+
+	<!-- Use HM Coding Standards -->
+	<rule ref="HM">
+		<!-- Don't restrict file and directory names -->
+		<exclude name="HM.Files.NamespaceDirectoryName" />
+		<exclude name="HM.Files.FunctionFileName.WrongFile" />
+
+		<!-- Exclude short description sniff so short `@var` notation can be used -->
+		<exclude name="Generic.Commenting.DocComment.MissingShort"/>
+
+		<!-- This faulty sniff has been removed in the most recent PSR2R standard, but it is still included in the HM one -->
+		<exclude name="PSR2R.Namespaces.UseInAlphabeticalOrder.Order"/>
+	</rule>
+
+	<!-- TODO: Temp exclude theme folder -->
+	<exclude-pattern>./themes/rayhatron</exclude-pattern>
+
+	<!-- Exclude other dependencies and directories -->
+	<exclude-pattern>./uploads/*</exclude-pattern>
+	<exclude-pattern>./vendor/*</exclude-pattern>
+
+</ruleset>
