@@ -9,6 +9,7 @@
 	},
 	"ignoreFiles": [
 		"node_modules/**",
-		"vendor/**"
+		"vendor/**",
+		"mu-plugins/query-monitor/**"
 	]
 }
