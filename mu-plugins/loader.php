@@ -9,6 +9,7 @@
 
 // Plugins to be loaded for any site.
 $global_mu_plugins = [
+	'query-monitor/query-monitor.php',
 	'wp-user-profiles/wp-user-profiles.php',
 ];
 

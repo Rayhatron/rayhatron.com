@@ -21,6 +21,7 @@
 		"installer-paths": {
 			"mu-plugins/{$name}/": [
 				"type:wordpress-muplugin",
+				"wpackagist-plugin/query-monitor",
 				"wpackagist-plugin/wp-user-profiles"
 			],
 			"plugins/{$name}/": [
@@ -32,6 +33,7 @@
 		}
 	},
 	"require": {
+		"wpackagist-plugin/query-monitor": "^3.10",
 		"wpackagist-plugin/wp-user-profiles": "^2.6"
 	}
 }
