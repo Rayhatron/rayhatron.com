@@ -24,8 +24,8 @@
 		<exclude name="PSR2R.Namespaces.UseInAlphabeticalOrder.Order"/>
 	</rule>
 
-	<!-- TODO: Temp exclude theme folder -->
-	<exclude-pattern>./themes/rayhatron</exclude-pattern>
+	<exclude-pattern>./themes/twentytwentythree</exclude-pattern>
+	<exclude-pattern>./themes/twentytwentytwo</exclude-pattern>
 
 	<!-- Exclude third party plugins -->
 	<exclude-pattern>./mu-plugins/query-monitor/*</exclude-pattern>

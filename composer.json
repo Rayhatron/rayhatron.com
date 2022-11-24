@@ -17,6 +17,9 @@
     "require-dev": {
         "humanmade/coding-standards": "^1.2"
     },
+	"scripts": {
+		"lint": "phpcs -- --basepath='.' ."
+	},
 	"extra": {
 		"installer-paths": {
 			"mu-plugins/{$name}/": [
@@ -35,5 +38,11 @@
 	"require": {
 		"wpackagist-plugin/query-monitor": "^3.10",
 		"wpackagist-plugin/wp-user-profiles": "^2.6"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true,
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
 	}
 }
