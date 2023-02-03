@@ -12,6 +12,10 @@
 		"wpackagist": {
 			"type":"composer",
 			"url":"https://wpackagist.org"
+		},
+		"my-yoast": {
+			"type": "composer",
+			"url": "https://my.yoast.com/packages/"
 		}
 	},
     "require-dev": {
@@ -25,8 +29,9 @@
 			"mu-plugins/{$name}/": [
 				"type:wordpress-muplugin",
 				"wpackagist-plugin/query-monitor",
-				"wpackagist-plugin/wp-user-profiles"
-			],
+				"wpackagist-plugin/wp-user-profiles",
+				"yoast/wordpress-seo"
+			], 
 			"plugins/{$name}/": [
 				"type:wordpress-plugin"
 			],
@@ -37,7 +42,8 @@
 	},
 	"require": {
 		"wpackagist-plugin/query-monitor": "^3.10",
-		"wpackagist-plugin/wp-user-profiles": "^2.6"
+		"wpackagist-plugin/wp-user-profiles": "^2.6",
+		"yoast/wordpress-seo": "^20.0"
 	},
 	"config": {
 		"allow-plugins": {
