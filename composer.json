@@ -29,6 +29,7 @@
 			"mu-plugins/{$name}/": [
 				"type:wordpress-muplugin",
 				"wpackagist-plugin/query-monitor",
+				"wpackagist-plugin/syntax-highlighting-code-block",
 				"wpackagist-plugin/wp-user-profiles",
 				"yoast/wordpress-seo"
 			], 
@@ -43,7 +44,8 @@
 	"require": {
 		"wpackagist-plugin/query-monitor": "^3.10",
 		"wpackagist-plugin/wp-user-profiles": "^2.6",
-		"yoast/wordpress-seo": "^20.0"
+		"yoast/wordpress-seo": "^20.0",
+		"wpackagist-plugin/syntax-highlighting-code-block": "^1.3"
 	},
 	"config": {
 		"allow-plugins": {
