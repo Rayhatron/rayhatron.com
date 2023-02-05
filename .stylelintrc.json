@@ -11,6 +11,7 @@
 		"node_modules/**",
 		"vendor/**",
 		"mu-plugins/query-monitor/**",
+		"mu-plugins/syntax-highlighting-code-block/**",
 		"mu-plugins/wordpress-seo/**",
 		"mu-plugins/wp-user-profiles/**"
 	]
