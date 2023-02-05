@@ -9,7 +9,7 @@
 	<arg value="s"/>
 
 	<!-- Set a minimum PHP version for PHPCompatibility -->
-	<config name="testVersion" value="7.4-" />
+	<config name="testVersion" value="8.0-" />
 
 	<!-- Use HM Coding Standards -->
 	<rule ref="HM">
@@ -29,6 +29,7 @@
 
 	<!-- Exclude third party plugins -->
 	<exclude-pattern>./mu-plugins/query-monitor/*</exclude-pattern>
+	<exclude-pattern>./mu-plugins/wordpress-seo/*</exclude-pattern>
 	<exclude-pattern>./mu-plugins/wp-user-profiles/*</exclude-pattern>
 
 	<!-- Exclude other dependencies and directories -->
