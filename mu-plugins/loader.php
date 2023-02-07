@@ -10,6 +10,8 @@
 // Plugins to be loaded for any site.
 $global_mu_plugins = [
 	'query-monitor/query-monitor.php',
+	'syntax-highlighting-code-block/syntax-highlighting-code-block.php',
+	'wordpress-seo/wp-seo.php',
 	'wp-user-profiles/wp-user-profiles.php',
 ];
 
